@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstSection {
+  background-color: #ccc;
+  width: 100%;
+}
+
+.firstSection h3 {
+  color: #000;
+  font-size: 35px;
+  padding: 10px 0 10px 30px;
+  font-weight: 300;
+}
+
+.forProducts {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.produs {
+  width: 30%;
+  border: 1px solid #000;
+}
+
+.forImg {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.withText {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+}
+
+.withText h3 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.produsLowSection {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  height: 100px;
+}
+
+.produsLowSection input {
+  width: 50px;
+}
+
+.produsLowSection button {
+  padding: 5px;
+}
+
+.describeBasket {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nameShopping {
+  padding-left: 30px;
+}
+
+.describeBasket h3 {
+  font-size: 25px;
+}
+
+.rightPart {
+  display: flex;
+  align-items: center;
+}
+
+.rightPart i {
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.priceWritten {
+  padding-right: 30px;
+}
+
+.withTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #ccc;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+.withTitle h3 {
+  font-size: 20px;
+}
+.withTitle h3 {
+  padding-left: 40px;
+}
+
+.basket {
+  width: 100%;
+}
+
+.innerBasket {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+
+.withImgName {
+  display: flex;
+  align-items: center;
+}
+
+.basketImg {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.priceCross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceCross i {
+  padding: 0 30px;
+}
+
+.basketQuantity {
+  padding-right: 70px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 838px) {
+  .forImg {
+    height: 150px;
+  }
+
+  .withText h3 {
+    font-size: 20px;
+  }
+
+  .describeBasket h3 {
+    font-size: 20px;
+  }
+}
